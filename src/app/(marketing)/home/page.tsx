@@ -12,7 +12,7 @@ import SubFooter from "./components/SubFooter";
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col relative bg-[#FAFCF7]">
-      <div className="z-50 w-full top-0 left-0 fixed pt-6 px-20 bg-transparent">
+      <div className="z-50 w-full top-0 left-0 fixed pt-6 px-4 sm:px-20 bg-transparent">
         <Navbar />
       </div>
       {/* <Hero />
@@ -75,7 +75,6 @@ export default function Home() {
       eveniet eius, labore obcaecati repellat, nulla, provident id fugiat
       placeat recusandae sapiente exercitationem voluptatum quia nemo dolore
       porro tempore numquam minus.
-      
     </main>
   );
 }

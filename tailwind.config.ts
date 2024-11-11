@@ -18,6 +18,7 @@ const config = {
       },
     },
     screens: {
+      xsm: "440px",
       sm: "640px",
       md: "768px",
       "2md": "832px",

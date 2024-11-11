@@ -11,7 +11,7 @@ export default function NavButton({ id, link, name }: NAVTYPES.navDataType) {
   return (
     <Button
       asChild
-      className={`min-h-[42px] h-[42px] text-[12px] relative rounded-none text-black leading-[18px] bg-transparent font-[600] hover:bg-transparent w-full ${
+      className={`2lg:px-4 px-1 min-h-[42px] h-[42px] text-[12px] relative rounded-none text-black leading-[18px] bg-transparent font-[600] hover:bg-transparent w-full ${
         pathName === link ? "" : ""
       }`}
     >
